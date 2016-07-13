@@ -24,7 +24,6 @@
     "commit": "f25d11d45c37116ba88452be0db55b364849b7f4"
   },
   "_source": "https://github.com/blivesta/animsition.git",
-  "_target": "~4.0.2",
-  "_originalSource": "animsition",
-  "_direct": true
+  "_target": "^4.0.2",
+  "_originalSource": "animsition"
 }
