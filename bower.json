@@ -5,9 +5,6 @@
     "animsition": "^4.0.2",
     "impress-js": "impress.js#^0.6.0"
   },
-  "devDependencies": {
-    "qunit": "~1.16.0"
-  },
   "license": "MIT",
   "ignore": [
     "**/.*",

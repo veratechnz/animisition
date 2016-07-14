@@ -9,7 +9,7 @@ html
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700', type='text/css')
     link(rel='stylesheet', href='bower_components/animsition/dist/css/animsition.min.css')
-    //- link(rel='stylesheet', href='css/custom-min.css')
+    link(rel='stylesheet', href='css/custom-min.css')
   body
     <!--[if lt IE 8]>
     p.browsehappy
@@ -20,21 +20,15 @@ html
 
     //- Add your site or application content here
     .container-fluid
-        .row
-          .col-md-12
-            .animsition
-              h1 Home Page
-              a(href="index.html" class="animsition-link")
-                h1 Page One
-              a(href="page-a.html" class="animsition-link")
-                h1 Page Two
-              a(href="page-b.html" class="animsition-link")
-                h1 Page Three
-              a(href="page-c.html" class="animsition-link")
-                h1 Page Four
-              a(href="page-d.html" class="animsition-link")
-                h1 Page Five 
+      #impress(style="width: 100%")
+        #one.main(class="step slide slide-a" data-x="0" data-y="-1500" data-scale="1")
+          p This is a sentence. 
+        #two.main(class="step slide" data-x="0" data-y="-1500" data-scale="1")
+          p This is another sentence.
+        #three.main(class="step slide" data-x="0" data-y="-1500" data-scale="1")
+          p This is another sentence.
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script(src='bower_components/impress-js/js/impress.js')
     script(src='js/custom.js')
-    script(src='bower_components/animsition/dist/js/animsition.min.js')
+    //- script(src='bower_components/animsition/dist/js/animsition.min.js')
