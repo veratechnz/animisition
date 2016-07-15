@@ -1,20 +1,97 @@
-html, body, .container-fluid {
-	height: 100%;
+/*Slide section position resets*/
+
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.reveal .slides>section {
+  min-height: 90%;
+  top: 0px !important;
+}
+
+.reveal .slides>section>section {
+  min-height: 100%;
+}
+
+
+/*Typography*/
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 1.2em; 
+  color: #005458;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.reveal h2 {
+  font-size: 2.11em; }
+
+.reveal h3 {
+  font-size: 1.55em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*Custom Css*/
+
+/*Slide A*/
+
+.logo {
+
+	img{
+		float: right;
+		width: 38%;
+		margin-right: 3%;
+	}
 
 }
 
-.main {
-	position: relative;
-	width: 80%;
-	height: 1000px;
-	border: black 3px solid;
-	font-size: 54px;
+.slide-a {
+
+	.reveal h1 {
+	  font-size: 2.1em; 
+	  color: #005458;
+	  text-transform: uppercase;
+	  font-weight: 700;
+	  opacity: 0.9;
+	}
+
+	.title {
+		float: left;
+		width: 24%;
+		margin-top: 17%;
+		margin-left: 7%;
+		text-align: left;
+	}
+
 }
 
-.slide-a
 
-p {
-	height: 100%;
-	width: 80%;
-	font-size: 54px;
-}
+

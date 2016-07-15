@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700" type="text/css">
-    <link rel="stylesheet" href="bower_components/animsition/dist/css/animsition.min.css">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/theme/simple.css">
     <link rel="stylesheet" href="css/custom-min.css">
   </head>
   <body><!--[if lt IE 8]>
@@ -17,21 +18,22 @@
       Please <a href="http://browsehappy.com/">upgrade Your browser</a>
       to improve your experience.
     </p><![endif]-->
-    <div class="container-fluid">
-      <div id="impress" style="width: 100%">
-        <div id="one" data-x="0" data-y="-1500" data-scale="1" class="main step slide slide-a">
-          <p>This is a sentence. </p>
-        </div>
-        <div id="two" data-x="0" data-y="-1500" data-scale="1" class="main step slide">
-          <p>This is another sentence.</p>
-        </div>
-        <div id="three" data-x="0" data-y="-1500" data-scale="1" class="main step slide">
-          <p>This is another sentence.</p>
-        </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-image="img/bg-a.jpg" class="slide-a">
+          <div class="logo"><img src="img/impactnew.png"></div>
+          <div class="title"> 
+            <h1>Lorem Ipsum Dolor Sit Amet.</h1>
+          </div>
+        </section>
+        <section data-background-image="img/slide-b.jpg"></section>
+        <section data-background-image="img/slide-c.jpg"></section>
+        <section data-background-image="img/slide-b.jpg"></section>
+        <section data-background-image="img/slide-d.jpg"></section>
       </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="bower_components/impress-js/js/impress.js"></script>
+    <script src="bower_components/reveal.js/js/reveal.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>
