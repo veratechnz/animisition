@@ -26,7 +26,7 @@
 	    touch: true,
 
 	    // Loop the presentation
-	    loop: false,
+	    loop: true,
 
 	    // Change the presentation direction to be RTL
 	    rtl: false,
@@ -72,7 +72,7 @@
 	    transition: 'default', // none/fade/slide/convex/concave/zoom
 
 	    // Transition speed
-	    transitionSpeed: 'default', // default/fast/slow
+	    transitionSpeed: 'slow', // default/fast/slow
 
 	    // Transition style for full page slide backgrounds
 	    backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom

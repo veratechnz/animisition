@@ -1,3 +1,2 @@
-Remove CDN's.
+Remove CDN's. Create includes. Convert to full screen. 
 
-Create includes.
