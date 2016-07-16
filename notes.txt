@@ -1,2 +1,2 @@
-Remove CDN's. Create includes. Convert to full screen. 
+Remove CDN's. Create includes. Convert to full screen. Make circle pics. SVG something
 

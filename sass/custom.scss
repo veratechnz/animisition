@@ -3,8 +3,11 @@
 /*Variables*/
 $blue: #22d3c5;
 $blue-a: #297a78;
+$blue-b: #22d3c5;
 $green: #558930;
+$green-b: #77bc1f;
 $yellow: #cede00;
+$grey: #9fa1a1;
 
 
 * {
@@ -264,6 +267,62 @@ $yellow: #cede00;
 		img {
 				width: 78%;
 			}
-
 	}
+
+	h4 {
+		margin-right: 15%;
+		float: right;
+		clear: right;
+		color :$blue-b;
+		font-size: 55px;
+		text-align: left;
+		font-weight: 700;
+		text-transform: uppercase; 
+		padding-left: 3%;
+	}
+
+	p {
+		float: right;
+		clear: right;
+		color: $grey;
+		padding-left: 3%;
+		font-size: 16px;
+		text-align: left;
+	}
+}
+
+/*Slide D*/
+
+.slide-d {
+
+	height: 100vh;
+	height: 100%;
+
+	h1{
+		position: relative;
+		text-transform: none;
+		text-align: left;
+		width:40%;
+		font-size: 1.75em;
+		font-weight: 700;
+		color: #ffffff;
+		border-left: 4px $green-b solid;
+		padding-top: 8%;
+		padding-left: 2%;
+		padding-bottom: 0px;
+	}
+
+	.logo {
+		width: 70%;
+		position: absolute;
+		bottom: 1%;
+		right: 1%;
+	}
+
+	span {
+		position: relative;
+		bottom: -9%;
+	}
+
+
 }

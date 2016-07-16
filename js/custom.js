@@ -69,7 +69,7 @@
 	    previewLinks: false,
 
 	    // Transition style
-	    transition: 'default', // none/fade/slide/convex/concave/zoom
+	    transition: 'convex', // none/fade/slide/convex/concave/zoom
 
 	    // Transition speed
 	    transitionSpeed: 'slow', // default/fast/slow
