@@ -95,11 +95,11 @@ $grey: #9fa1a1;
 	  color: #005458;
 	  text-transform: uppercase;
 	  font-weight: 700;
-	  opacity: 0.9;
 	  margin-bottom: 5%;
 	}
 
 	.title {
+		display: none;
 		float: left;
 		width: 23%;
 		margin-top: 15%;
@@ -107,9 +107,6 @@ $grey: #9fa1a1;
 		text-align: left;
 	}
 
-}
-
-.slide-a {
 
 	.logo {
 
@@ -152,6 +149,7 @@ $grey: #9fa1a1;
 
 	/*Speech Bubble titles*/
 	h3 {
+		display: none;
 		margin-top: 10%;
 		font-size: 30px;
 		font-weight: 700;
@@ -265,11 +263,23 @@ $grey: #9fa1a1;
 		margin-right: 8%;
 
 		img {
-				width: 78%;
+				width: 68%;
 			}
 	}
 
+	.logo img {
+
+		margin-bottom: 7%;
+		margin-right: 8%;
+
+	}
+
+	.circle-images {
+		display: none;
+	}
+
 	h4 {
+		display: none;
 		margin-right: 15%;
 		float: right;
 		clear: right;
@@ -299,6 +309,7 @@ $grey: #9fa1a1;
 	height: 100%;
 
 	h1{
+		display: none;
 		position: relative;
 		text-transform: none;
 		text-align: left;

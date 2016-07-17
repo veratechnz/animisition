@@ -1,4 +1,5 @@
 (function(){
+
 	Reveal.initialize({
 
 	    // Display controls in the bottom right corner
@@ -106,5 +107,34 @@
 	    maxScale: 1.5
 
 	});
+
+
+	Reveal.addEventListener( 'slidechanged', function( event ) {
+
+		// Various slide fade in and transition effects
+		var slideIndex = event.indexh;
+
+		if (slideIndex === 2) {
+			$('#cImg').fadeIn(100, function(){
+				$('#cTitle').fadeIn(2000);
+			});
+		}  else if (slideIndex === 4) {
+			$('#finalTitle').fadeIn(6000);
+		} else if (slideIndex === 1) {
+			$('h3').fadeIn(4000);
+		} else if (slideIndex === 3) {
+			$('h3').fadeIn(4000);
+		};
+
+
+	} );
+
+	var firstTitle = function(){
+		$('#firstTitle').fadeIn(2000);
+	};
+
+	// Trigger first fade in **function above
+	firstTitle();
+
 }());
 
